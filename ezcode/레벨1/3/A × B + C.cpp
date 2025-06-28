@@ -4,7 +4,6 @@
 #include <algorithm>
 using namespace std;
 
-// 문자열 곱셈
 string multiply(const string &num1, const string &num2) {
     int n1 = num1.size(), n2 = num2.size();
     vector<int> prod(n1 + n2, 0);
