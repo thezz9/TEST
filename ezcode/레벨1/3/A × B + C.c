@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-// 문자열 num1 * num2 -> 새로 할당된 문자열 리턴
 char* multiply(const char *num1, const char *num2) {
     int len1 = strlen(num1), len2 = strlen(num2);
     int n = len1 + len2;
