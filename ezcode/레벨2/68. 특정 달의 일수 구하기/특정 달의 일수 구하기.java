@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class Main {
@@ -10,7 +9,7 @@ public class Main {
         int[] days = { 0, 31, 28, 31, 30, 31, 30,
                        31, 31, 30, 31, 30, 31 };
 
-        // 윤년이면 2월을 29일로
+        // 윤년이면 2월을 29일로111
         if ((y % 4 == 0 && y % 100 != 0) || y % 400 == 0) {
             days[2] = 29;
         }
